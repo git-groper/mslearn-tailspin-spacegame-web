@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/adev-test/adev-test-prj-pipeline/_apis/build/status/git-groper.mslearn-tailspin-spacegame-web?branchName=main)](https://dev.azure.com/adev-test/adev-test-prj-pipeline/_build/latest?definitionId=1&branchName=main)
 
 # Contributing
 
