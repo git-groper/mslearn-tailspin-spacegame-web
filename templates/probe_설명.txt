@@ -1,0 +1,24 @@
+livenessProbe:
+  exec:
+    command:
+    - cat
+    - /tmp/healthy
+
+
+readinessProbe:
+  httpGet:
+    path: /readiness
+    port: 8080
+
+
+livenessProbe:
+  tcpSocket:
+    port: 22
+  initialDelaySeconds: 5
+  periodSeconds: 5
+
+
+출처: https://bcho.tistory.com/1264 [조대협의 블로그]
+
+
+출처: https://bcho.tistory.com/1264 [조대협의 블로그]
